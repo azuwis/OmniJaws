@@ -54,8 +54,7 @@
         <provider
             android:name=".WeatherContentProvider"
             android:authorities="org.omnirom.omnijaws.provider"
-            android:exported="true"
-            android:readPermission="org.omnirom.omnijaws.READ_WEATHER" />
+            android:exported="true" />
 
         <receiver android:name=".SystemReceiver" >
             <intent-filter>
