@@ -38,13 +38,13 @@ import java.util.List;
 public class OmniJawsClient {
     private static final String TAG = "Widget:OmniJawsClient";
     private static final boolean DEBUG = false;
-    public static final String SERVICE_PACKAGE = "org.omnirom.omnijaws";
+    public static final String SERVICE_PACKAGE = "org.freeyourgadget.omnijaws";
     public static final Uri WEATHER_URI
             = Uri.parse("content://org.omnirom.omnijaws.provider/weather");
     public static final Uri SETTINGS_URI
             = Uri.parse("content://org.omnirom.omnijaws.provider/settings");
 
-    private static final String ICON_PACKAGE_DEFAULT = "org.omnirom.omnijaws";
+    private static final String ICON_PACKAGE_DEFAULT = "org.freeyourgadget.omnijaws";
     private static final String ICON_PREFIX_DEFAULT = "outline";
 
     public static final String[] WEATHER_PROJECTION = new String[]{
