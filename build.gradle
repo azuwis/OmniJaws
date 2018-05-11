@@ -24,7 +24,7 @@ android {
     useLibrary 'org.apache.http.legacy'
 
     defaultConfig {
-        applicationId 'org.omnirom.omnijaws'
+        applicationId 'org.freeyourgadget.omnijaws'
         minSdkVersion 19
         targetSdkVersion 25
         versionCode 1
